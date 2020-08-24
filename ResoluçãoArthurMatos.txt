@@ -1,0 +1,25 @@
+Resolução de Arthur Alves de Matos, e-mail sigaa: artziz4576@gmail.com, e-mail GitHub: git.arthurmatos@gmail.com;
+Foram utilizadas fontes de pesquisa para resolução das questões abaixo além do conteúdo disponibilizado, sendo mais preciso a documentação do Git e o StackOverflow;
+
+  Q1)
+	a)Git init: Faz um novo repositório Git, podendo tanto inicializar um repositorio vazio quanto transformar um repositório existente e não versionado.
+	b)Git clone: Copia um repositório git já existente, podendo ser feito por Https ou SSH.
+
+	c)Git Branch: Pode listar/criar/excluir/renomear Branchs dentro do projeto.
+
+	d)Git checkout: De acordo à documentação do git, o git checkout permite alternar entre branchs ou restaurar arquivos da árvore de Trabalho. (ressalva: o comando git chechout -b <new_branch>, cria uma nova branch <new_branch>, com se o comando git branch fosse chamado).
+
+	e)Git fetch: De acordo às informações extraidas do site StackOverflow, o comando "git fetch" atualiza as referencias de seu repositório local em relação ao repositório remoto.
+
+	f)Git pull: adiciona a seu repositório local mudanças do repositório remoto.
+
+	g)Git add: De acordo à documentação do git, o comando "git add" adiciona o conteúdo atual do da árvore de trabalho ao index, preparando-o para o proximo commit.
+
+	h)Git commit: Grava as mudanças para o repositório.
+
+	i)Git push: Atualiza o repositório remoto a partir das mudanças no repositório local.
+
+
+  Q2)
+	
+	O comando "git fetch" atualiza as referencias do repositório local em relação ao repositorio remoto, no entando ele não as aplica ao repositório local. Já o comando "git pull" aplica as mudanças de um repositório remoto ao branch local, equivalente à utilizar o comando fetch, seguido do comando "git merge". 
